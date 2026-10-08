@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Обратная связь — Виртуальная гадалка</title>
+    <meta name="description" content="Форма обратной связи">
+    <link rel="icon" href="gadalka.ico">
+</head>
+
+<body>
+    <header>
+        <h1>Виртуальная гадалка</h1>
+    </header>   
+
+    <main>
+        <section>
+            <h2>Обратная связь</h2>
+            <p>Если у вас остались вопросы, заполните форму ниже:</p>
+
+            <form action="/submit" method="post">
+                <label for="name">Имя:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="message">Сообщение:</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+
+                <button type="submit">Отправить</button>
+            </form>
+
+        </section>
+    </main>
+
+    <nav>
+        <h3>Навигация</h3>
+        <a href="index.html">Главная страница</a> | 
+        <a href="blog.html">Меню раскладов</a> | 
+        <a href="arcana.html">Старшие Арканы</a> 
+    </nav>
+
+    <footer>
+        <address>
+            <p>Контакты для связи:</p>
+            <ul>
+                <li>Телефон: <a href="tel:+88005553555">+8 (800) 555-35-55</a></li>
+                <li>Email: <a href="mailto:info@gadalka.com">info@gadalka.com</a></li>
+            </ul>
+        </address>
+    </footer>
+</body>
+</html>
